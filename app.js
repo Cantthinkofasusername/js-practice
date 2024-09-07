@@ -25,3 +25,14 @@ const favnum = 5;
 const favnum2 = 6;
 const quotient = favnum/favnum2;
 console.log(quotient);
+
+let isEmpty = Boolean('');
+let isNotEmpty = Boolean('NotEmpty');
+console.log(isEmpty);
+console.log(isNotEmpty);
+
+let zero = Boolean(0);
+let nonZero = Boolean(9000);
+console.log(zero)
+console.log(nonZero)
+
