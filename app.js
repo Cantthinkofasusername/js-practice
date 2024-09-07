@@ -33,6 +33,15 @@ console.log(isNotEmpty);
 
 let zero = Boolean(0);
 let nonZero = Boolean(9000);
-console.log(zero)
-console.log(nonZero)
+console.log(zero);
+console.log(nonZero);
 
+let isSharp = true;
+let isSafe = false;
+let objExample = isSharp && isSafe;
+console.log(objExample);
+
+let obj = {}
+let arr = []
+console.log(Boolean(obj));
+console.log(Boolean(arr))
