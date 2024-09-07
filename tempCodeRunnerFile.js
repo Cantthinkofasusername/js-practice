@@ -1,4 +1,10 @@
-let obj = {}
-let arr = []
-console.log(Boolean(obj));
-console.log(Boolean(arr))
+let x = 17;
+let y = 14;
+let isGreaterThan = x > y;
+let isLessThan = x < y;
+let isEqualTo = x === y;
+let isNotEqualTo = x != y;
+console.log("Is x greater than y?", isGreaterThan);
+console.log("Is x less than y?", isLessThan);
+console.log("Is x equal to y", isEqualTo);
+console.log("Is x not equal to y?", isNotEqualTo);
